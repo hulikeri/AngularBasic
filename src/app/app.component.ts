@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Software'
+  title = 'Software';
+  BindingProperty = 'Binded with property';
+  ContentPro = 'Binded with content'
+  isReturnable(){
+    return true;
+  }
 }
