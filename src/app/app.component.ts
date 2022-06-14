@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Software';
   BindingProperty = 'Binded with property';
-  ContentPro = 'Binded with content'
+  ContentPro = 'Binded with contentqq'
   isReturnable(){
     return true;
   }
