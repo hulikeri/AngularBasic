@@ -12,4 +12,8 @@ export class MediaItmesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  OnDelete(){
+    console.log("Deleted");
+  }
+
 }
