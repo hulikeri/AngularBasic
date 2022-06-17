@@ -1,5 +1,10 @@
-<p>{{MediaInput.Id}}</p>
-<h1>This is Event binding operation 
-<button id="btnRemove" (click)="OnDelete()">Remove</button> &nbsp;
-<button id="btnAdd" >add</button> </h1>
-<h2>{{MediaInput.Name}}</h2>
+
+<div *ngIf="MediaInput.Id">
+    <h1>{{MediaInput.Id}}</h1>
+    <h2>{{MediaInput.Name}}</h2>
+    {{MediaInput.Medium}} <br><br>
+    <button id="btnAdd">add</button>
+    <button id="btnUpdate">Update</button>
+    <button id="btnRemove" (click)="OnDelete()">Remove</button> &nbsp;
+</div>
+
