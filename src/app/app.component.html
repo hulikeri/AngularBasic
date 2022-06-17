@@ -7,7 +7,7 @@
             <h4>[content]="ContentPro"</h4>
             <h5>This is maroonnnnn</h5>
         </body>
-        <app-media-itmes [MediaInput]="firstMediaItems">
+        <app-media-itmes [MediaInput]="firstMediaItems" (Delete)="OnMediaItemDelete($event)">
             <head>
                 <title>Angular</title>
             </head>
