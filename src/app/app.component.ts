@@ -18,4 +18,9 @@ export class AppComponent {
     Name: 'Ling',
     Medium: 'Series'
   }
+
+  OnMediaItemDelete(mediaInput: any)
+   {
+
+  }
 }
