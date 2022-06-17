@@ -14,9 +14,9 @@ export class AppComponent {
     return true;
   }
   firstMediaItems = {
-    Id: 1,
+    Id: null,
     Name: 'Ling',
-    Medium: 'Series'
+    Medium: 'Criud Operation with next buttons'
   }
 
   OnMediaItemDelete(mediaInput: any)
