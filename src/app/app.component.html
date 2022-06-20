@@ -1,18 +1,15 @@
 <html>
+    <h1>{{title}}</h1>
     <section>
-        <body class="BodyProperties">Here is my site
+        
+        <!-- <body class="BodyProperties">Here is my site
             <h1>{{title}}</h1>
             <h2>{{isReturnable()}}</h2>
             <h3 [textContent]="BindingProperty"></h3>
             <h4>[content]="ContentPro"</h4>
             <h5>This is maroonnnnn</h5>
-        </body>
-        <app-media-itmes [MediaInput]="firstMediaItems" (Delete)="OnMediaItemDelete($event)">
-            <head>
-                <title>Angular</title>
-            </head>
-
-        </app-media-itmes>
+        </body> -->
+        <app-media-item-list></app-media-item-list>
     </section>
     <router-outlet></router-outlet>
 </html>
