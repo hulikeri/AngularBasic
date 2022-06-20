@@ -1,0 +1,9 @@
+<app-media-itmes
+ *ngFor="let item of MediaItems"
+ [MediaInput]="item" 
+ (Delete)="OnMediaItemDelete($event)" (Watch)="OnMediaItemWatched($event)">
+    <head>
+        <title>Angular</title>
+    </head>
+
+</app-media-itmes>

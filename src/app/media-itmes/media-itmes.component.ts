@@ -1,3 +1,4 @@
+import { outputAst } from '@angular/compiler';
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
@@ -8,8 +9,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class MediaItmesComponent implements OnInit {
   @Input() MediaInput: any;
   @Output() Delete = new EventEmitter();
-  constructor() { }
-
+  @Output() Details = new EventEmitter();
   ngOnInit(): void {
   }
   
@@ -17,5 +17,11 @@ export class MediaItmesComponent implements OnInit {
   OnDelete(){
     console.log("Deleted");
     this.Delete.emit(this.MediaInput);
+  }
+
+  OnWatched()
+  {
+    console.log("Watched");
+    this.Details.emit(this.MediaInput);
   }
 }

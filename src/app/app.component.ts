@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Software';
+  title = 'List of media items';
   BindingProperty = 'Binded with property';
   ContentPro = 'Binded with contentqq'
   isReturnable(){
     return true;
   }
   firstMediaItems = {
-    Id: null,
-    Name: 'Ling',
-    Medium: 'Criud Operation with next buttons'
+    id: null,
+    name: 'Ling',
+    medium: 'Criud Operation with next buttons'
   }
 
   OnMediaItemDelete(mediaInput: any)
