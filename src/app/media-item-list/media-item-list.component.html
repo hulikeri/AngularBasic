@@ -1,7 +1,9 @@
 <app-media-itmes
  *ngFor="let item of MediaItems"
- [MediaInput]="item" 
- (Delete)="OnMediaItemDelete($event)" (Watch)="OnMediaItemWatched($event)">
+ [MediaInput]="item"
+ (Delete)="OnMediaItemDelete($event)" (Watch)="OnMediaItemWatched($event)"
+ [ngClass]="{'medium-movie': item.medium === 'Movie', 'medium-series': item.medium === 'Series'}"
+  >
     <head>
         <title>Angular</title>
     </head>

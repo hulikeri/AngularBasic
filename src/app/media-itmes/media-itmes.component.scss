@@ -14,16 +14,16 @@
     font-size: 1.6em;
     flex: 1;
   }
-  :host(.medium-movies) {
+  :host(.medium-movie) {
     border-color: #53ace4;
   }
-  :host(.medium-movies) > h2 {
+  :host(.medium-movie) > h2{
     color: #53ace4;
   }
   :host(.medium-series) {
     border-color: #45bf94;
   }
-  :host(.medium-series) > h2 {
+  :host(.medium-series) > h2{
     color: #45bf94;
   }
   .tools {
